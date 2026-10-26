@@ -11,8 +11,12 @@ const CalendarApp = () => {
           <h2 className="month">May, </h2>
           <h2 className="year">2026</h2>
           <div className="buttons">
-            <FaChevronLeft />
-            <FaChevronRight />
+            <i>
+              <FaChevronLeft className="navigate" />
+            </i>
+            <i>
+              <FaChevronRight className="navigate" />
+            </i>
           </div>
         </div>
         <div className="weekdays">
@@ -50,7 +54,7 @@ const CalendarApp = () => {
           <span>23</span>
           <span>24</span>
           <span>25</span>
-          <span>26</span>
+          <span className="current-day">26</span>
           <span>27</span>
           <span>28</span>
           <span>29</span>
@@ -68,7 +72,9 @@ const CalendarApp = () => {
           <textarea placeholder="Enter Event Text "></textarea>
           <button className="event-popup-btn">Add Event</button>
           <button className="close-event-popup">
-            <IoClose />
+            <i>
+              <IoClose />
+            </i>
           </button>
         </div>
         <div className="event">
@@ -78,8 +84,12 @@ const CalendarApp = () => {
           </div>
           <div className="event-text">Text field area</div>
           <div className="event-buttons">
-            <FaEdit />
-            <BiSolidMessageAltX />
+            <i>
+              <FaEdit />
+            </i>
+            <i>
+              <BiSolidMessageAltX />
+            </i>
           </div>
         </div>
       </div>
