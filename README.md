@@ -59,19 +59,6 @@ A modern, interactive calendar application built with React and CSS. The app all
 
 5. Open the local URL provided in your terminal, typically `http://localhost:5173`.
 
-## 📦 Production Build
-
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-```
 
 ## 🧠 What I Practiced
 
