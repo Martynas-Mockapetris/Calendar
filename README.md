@@ -36,13 +36,13 @@ A modern, interactive calendar application built with React and CSS. The app all
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/Martynas-Mockapetris/Calendar.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd YOUR_PROJECT_DIRECTORY
+   cd Calendar
    ```
 
 3. Install the dependencies:
